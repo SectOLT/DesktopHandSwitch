@@ -12,6 +12,7 @@ namespace DesktopHandSwitch
         public override string Name => "DesktopHandSwitch";
         public override string Author => "TheJebForge";
         public override string Version => "1.1.0";
+        public override string Link => "https://github.com/TheJebForge/DesktopHandSwitch/";
 
         [AutoRegisterConfigKey]
         readonly ModConfigurationKey<Key> ACTIVATION_KEY = new ModConfigurationKey<Key>("activation_key","Activation Key", () => Key.LeftAlt);
